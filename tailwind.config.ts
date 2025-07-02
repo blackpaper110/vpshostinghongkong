@@ -14,6 +14,12 @@ export default {
     },
     extend: {
       colors: {
+        // VPS Hosting Custom Colors
+        "deep-purple": "#1E1B4B",
+        "cosmic-blue": "#3E00FF",
+        "star-white": "#FFFFFF",
+        "meteor-gray": "#4B4B4B",
+
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
