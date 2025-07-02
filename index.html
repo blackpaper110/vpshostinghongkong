@@ -3,12 +3,585 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello world project</title>
+    <title>VPS Server Hong Kong - China-Ready VPS Hosting | ARZ Host</title>
+    <meta
+      name="description"
+      content="Professional VPS hosting Hong Kong solutions for businesses targeting the Chinese market. Low-latency servers, ICP license assistance, and enterprise-grade security."
+    />
+    <meta
+      name="keywords"
+      content="vps server hong kong, vps hosting hong kong, china vps, arzhost, mainland china hosting"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <div id="root"></div>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav-container">
+        <div class="nav-content">
+          <div class="nav-logo">
+            <h1 class="logo">
+              <a href="https://arzhost.com/" class="logo-link">ARZ Host</a>
+            </h1>
+          </div>
+          <div class="nav-menu" id="navMenu">
+            <a href="https://arzhost.com/vps/" class="nav-link"
+              >VPS Server Hong Kong</a
+            >
+            <a href="https://arzhost.com/region-based-vps/" class="nav-link"
+              >VPS Region</a
+            >
+            <a href="https://arzhost.com/lifetime-web-hosting/" class="nav-link"
+              >Lifetime Web Hosting</a
+            >
+            <a href="https://www.arzhost.com/about-us/" class="nav-link"
+              >About Us</a
+            >
+            <a href="https://www.arzhost.com/contact-us/" class="nav-link"
+              >Contact</a
+            >
+          </div>
+          <div class="mobile-menu-toggle" id="mobileMenuToggle">
+            <button class="hamburger">
+              <svg
+                class="hamburger-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-    <script type="module" src="/client/main.tsx"></script>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-container">
+        <h1 class="hero-title">
+          China‑Ready <span class="hero-highlight">VPS Hosting</span>
+        </h1>
+        <p class="hero-subtitle">
+          Power your site from inside China fast, compliant, and always on.
+        </p>
+        <p class="hero-description">
+          Low‑latency servers,
+          <a
+            href="https://en.wikipedia.org/wiki/ICP_license"
+            class="hero-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >ICP‑license</a
+          >
+          assistance, and enterprise‑grade security in one affordable package.
+        </p>
+        <a href="https://arzhost.com/vps/" class="hero-cta">
+          ➜ Launch My China VPS
+        </a>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <div class="container">
+        <h2 class="section-title">💡 Why Host Inside Mainland China?</h2>
+
+        <div class="table-container">
+          <table class="benefits-table">
+            <thead>
+              <tr>
+                <th>Benefit</th>
+                <th>What It Means for You</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="benefit-name">Ultra‑Low Latency</td>
+                <td>
+                  Pages open in milliseconds for visitors across Beijing,
+                  Shanghai, Shenzhen, and beyond no Great‑Firewall slow‑downs.
+                </td>
+              </tr>
+              <tr class="table-row-alt">
+                <td class="benefit-name">Baidu & Local‑SEO Boost</td>
+                <td>
+                  Search engines rank sites hosted on Chinese IPs higher, giving
+                  you front‑page visibility for local keywords.
+                </td>
+              </tr>
+              <tr>
+                <td class="benefit-name">Legal Compliance</td>
+                <td>
+                  We walk you through ICP filing, keeping your brand 100% in
+                  line with MIIT regulations.
+                </td>
+              </tr>
+              <tr class="table-row-alt">
+                <td class="benefit-name">Chinese CDN Access</td>
+                <td>
+                  Nationwide content delivery ensures lightning‑fast image,
+                  video, and file loads even during peak traffic.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+      <div class="container">
+        <h2 class="section-title">
+          📦 VPS Plans & Pricing — Powered by
+          <a href="https://arzhost.com/" class="brand-link">ARZ Host</a>
+        </h2>
+
+        <div class="table-container">
+          <table class="pricing-table">
+            <thead>
+              <tr>
+                <th>Plan</th>
+                <th>CPU / RAM</th>
+                <th>NVMe SSD</th>
+                <th>Bandwidth</th>
+                <th>Monthly Price*</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="plan-name">Starter VPS</td>
+                <td>1 vCore / 2 GB</td>
+                <td>20 GB</td>
+                <td>250 Mbit</td>
+                <td class="price">$12.50</td>
+              </tr>
+              <tr class="table-row-alt">
+                <td class="plan-name">Value VPS</td>
+                <td>1 vCore / 2 GB</td>
+                <td>40 GB</td>
+                <td>250 Mbit</td>
+                <td class="price">$16.00</td>
+              </tr>
+              <tr>
+                <td class="plan-name">Essential VPS</td>
+                <td>2 vCores / 4 GB</td>
+                <td>80 GB</td>
+                <td>250 Mbit</td>
+                <td class="price">$34.00</td>
+              </tr>
+              <tr class="table-row-alt">
+                <td class="plan-name">Comfort VPS</td>
+                <td>4 vCores / 8 GB</td>
+                <td>160 GB</td>
+                <td>250 Mbit</td>
+                <td class="price">$54.00</td>
+              </tr>
+              <tr>
+                <td class="plan-name">Elite VPS</td>
+                <td>8 vCores / 8–32 GB</td>
+                <td>160–640 GB</td>
+                <td>250 Mbit</td>
+                <td class="price">$60.00 +</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="pricing-note">
+            *Pricing verified July 1 2025.
+            <a href="https://arzhost.com/" class="brand-link">arzhost.com</a>
+          </p>
+          <div class="cta-center">
+            <a href="https://arzhost.com/vps/" class="btn-primary"
+              >Choose Plan</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <h2 class="section-title">🔑 What's Included Every Plan</h2>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <h3 class="feature-title">Full Root Access</h3>
+            <p class="feature-description">
+              Install any OS or software stack; you're in total control.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3 class="feature-title">NVMe‑Backed Storage</h3>
+            <p class="feature-description">
+              Up to 6× faster reads/writes than SATA SSDs for snappy databases
+              and CMSs.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3 class="feature-title">KVM Virtualization</h3>
+            <p class="feature-description">
+              Dedicated CPU & RAM, isolated from noisy neighbors for stable
+              performance.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3 class="feature-title">DDoS Shield</h3>
+            <p class="feature-description">
+              Always‑on mitigation keeps your site online when attacks strike.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3 class="feature-title">24/7 Bilingual Support</h3>
+            <p class="feature-description">
+              Mandarin & English engineers on live chat, email, and phone.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3 class="feature-title">Weekly Snapshots</h3>
+            <p class="feature-description">
+              Automated backups with single‑click restores safeguard your data.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plan Recommendations -->
+    <section class="recommendations">
+      <div class="container">
+        <h2 class="section-title">🎯 Which Plan Fits You?</h2>
+
+        <div class="recommendations-grid">
+          <div class="recommendation-card">
+            <h3 class="recommendation-title">Starter / Value</h3>
+            <p class="recommendation-description">
+              Perfect for personal blogs, small business sites, or staging
+              servers. Two gigs of RAM keep WordPress, Joomla, or Ghost running
+              smoothly while NVMe drives slash load times.
+            </p>
+          </div>
+          <div class="recommendation-card">
+            <h3 class="recommendation-title">Essential</h3>
+            <p class="recommendation-description">
+              A dual‑core boost for growing stores or SaaS MVPs. Handles
+              moderate traffic, small databases, and light API workloads without
+              breaking the bank.
+            </p>
+          </div>
+          <div class="recommendation-card">
+            <h3 class="recommendation-title">Comfort</h3>
+            <p class="recommendation-description">
+              Quad‑core muscle and 8 GB RAM deliver headroom for high‑traffic
+              e‑commerce, multiple client sites, or real‑time apps. Great choice
+              when uptime and speed drive revenue.
+            </p>
+          </div>
+          <div class="recommendation-card">
+            <h3 class="recommendation-title">Elite</h3>
+            <p class="recommendation-description">
+              Enterprise horsepower for large catalogs, media platforms, or
+              regional clusters. Scale RAM to 32 GB and storage to 640 GB as
+              demand spikes—no migration needed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+      <div class="container">
+        <h2 class="section-title-white">
+          ⚙️ From Checkout to Go‑Live—in Three Steps
+        </h2>
+
+        <div class="process-grid">
+          <div class="process-step">
+            <div class="step-number">1</div>
+            <h3 class="step-title">Pick a Plan</h3>
+            <p class="step-description">
+              Order online; servers provision in minutes.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">2</div>
+            <h3 class="step-title">Submit ICP Docs</h3>
+            <p class="step-description">
+              We review and file with MIIT, guiding every requirement.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">3</div>
+            <h3 class="step-title">Deploy & Scale</h3>
+            <p class="step-description">
+              Upload your code, attach a Chinese CDN, and expand resources
+              anytime from your dashboard.
+            </p>
+          </div>
+        </div>
+
+        <div class="cta-center">
+          <a href="https://arzhost.com/vps/" class="hero-cta">➜ Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+      <div class="video-container">
+        <h2 class="section-title">
+          Learn More About
+          <a href="https://arzhost.com/" class="brand-link"
+            >VPS Hosting Hong Kong</a
+          >
+        </h2>
+        <div class="video-wrapper">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/p8qVXz_2mPI"
+            title="VPS Hosting Hong Kong"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section-title">⭐ Client Stories</h2>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              "Switching to a mainland VPS cut our page load from 4 s to under 1
+              s. Baidu rankings jumped within weeks."
+            </p>
+            <p class="testimonial-author">
+              — Liang Z., Head of E‑Commerce, Shenzhen
+            </p>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              "The
+              <a href="https://arzhost.com/" class="brand-link">ARZ team</a>
+              made the ICP process painless. Our China microsite was live ahead
+              of schedule and under budget."
+            </p>
+            <p class="testimonial-author">
+              — Rachel M., Global Marketing Director
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+      <div class="faq-container">
+        <h2 class="section-title">❓ Frequently Asked Questions</h2>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3 class="faq-question">Do I really need an ICP license?</h3>
+            <p class="faq-answer">
+              Yes. Any public website hosted on a Chinese server must display a
+              valid ICP number. Hosting without one risks takedown by local
+              ISPs. We handle the paperwork, translations, and direct submission
+              so you can focus on launch day.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">
+              Can a foreign‑owned company apply for ICP?
+            </h3>
+            <p class="faq-answer">
+              Absolutely. You'll need a Chinese‑registered business entity or a
+              local partner; we'll outline acceptable structures, gather the
+              required ID & corporate docs, and liaise with MIIT until approval
+              comes through (typically 2–3 weeks).
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">What if my traffic suddenly spikes?</h3>
+            <p class="faq-answer">
+              Our on‑demand scaling adds CPU, RAM, or storage in seconds, with
+              no downtime. Combined with unmetered 250 Mbit bandwidth and
+              optional Chinese CDN nodes, your site stays quick—even during
+              flash sales or viral campaigns.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">Is the VPS fully managed?</h3>
+            <p class="faq-answer">
+              By default, servers are self‑managed to give you maximum freedom.
+              If you prefer hands‑off operations, add a managed‑service pack and
+              our sysadmins will handle updates, hardening, and monitoring
+              24/7—backed by strict SLAs.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">How secure is my data?</h3>
+            <p class="faq-answer">
+              Each instance lives in an isolated KVM container with its own
+              firewall. Weekly snapshots plus optional daily backups let you
+              roll back any time. Enterprise‑grade DDoS filtering and 24/7
+              security ops keep threats at bay.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta">
+      <div class="cta-container">
+        <h2 class="cta-title">🌟 Ready to Dominate the Chinese Market?</h2>
+        <p class="cta-subtitle">
+          Launch a compliant, high‑performance VPS today—backed by local
+          expertise and global‑grade infrastructure.
+        </p>
+        <div class="cta-actions">
+          <a href="https://arzhost.com/vps/" class="hero-cta"
+            >Start My China VPS</a
+          >
+          <span class="cta-separator">|</span>
+          <a href="https://www.arzhost.com/contact-us/" class="cta-link"
+            >Live Chat</a
+          >
+          <span class="cta-separator">|</span>
+          <a href="tel:+8640012341567" class="cta-link">+86‑400‑123‑4567</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3 class="footer-title">
+              <a href="https://arzhost.com/" class="footer-brand">ARZ Host</a>
+            </h3>
+            <p class="footer-description">
+              Professional
+              <a href="https://arzhost.com/" class="footer-link"
+                >VPS hosting Hong Kong</a
+              >
+              solutions for businesses targeting the Chinese market.
+            </p>
+            <div class="footer-contact">
+              <p>
+                Website:
+                <a href="https://arzhost.com" class="footer-link"
+                  >arzhost.com</a
+                >
+              </p>
+              <p>
+                Phone:
+                <a href="tel:+16315948060" class="footer-link"
+                  >+1 (631) 594-8060</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h4 class="footer-heading">Services</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="https://arzhost.com/vps/" class="footer-nav-link"
+                  >VPS Server Hong Kong</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://arzhost.com/region-based-vps/"
+                  class="footer-nav-link"
+                  >VPS Region</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://arzhost.com/lifetime-web-hosting/"
+                  class="footer-nav-link"
+                  >Lifetime Web Hosting</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4 class="footer-heading">Company</h4>
+            <ul class="footer-links">
+              <li>
+                <a
+                  href="https://www.arzhost.com/about-us/"
+                  class="footer-nav-link"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.arzhost.com/contact-us/"
+                  class="footer-nav-link"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4 class="footer-heading">Legal</h4>
+            <ul class="footer-links">
+              <li>
+                <a
+                  href="https://www.arzhost.com/terms-conditions/"
+                  class="footer-nav-link"
+                  >Terms and Conditions</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.arzhost.com/privacy-policy/"
+                  class="footer-nav-link"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.arzhost.com/disclaimer/"
+                  class="footer-nav-link"
+                  >Disclaimer</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025
+            <a href="https://arzhost.com/" class="footer-link">ARZ Host</a>. All
+            rights reserved. | Professional VPS hosting solutions for the
+            Chinese market.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
