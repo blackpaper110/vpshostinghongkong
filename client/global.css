@@ -9,35 +9,41 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* VPS Hosting Color Scheme */
+    --deep-purple: 240 75% 21%; /* #1E1B4B */
+    --cosmic-blue: 258 100% 50%; /* #3E00FF */
+    --star-white: 0 0% 100%; /* #FFFFFF */
+    --meteor-gray: 0 0% 29%; /* #4B4B4B */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --background: var(--star-white);
+    --foreground: var(--deep-purple);
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --card: var(--star-white);
+    --card-foreground: var(--deep-purple);
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --popover: var(--star-white);
+    --popover-foreground: var(--deep-purple);
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --primary: var(--cosmic-blue);
+    --primary-foreground: var(--star-white);
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --secondary: 240 75% 95%;
+    --secondary-foreground: var(--deep-purple);
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --muted: 240 10% 96%;
+    --muted-foreground: var(--meteor-gray);
+
+    --accent: var(--cosmic-blue);
+    --accent-foreground: var(--star-white);
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: var(--star-white);
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 240 20% 90%;
+    --input: 240 20% 90%;
+    --ring: var(--cosmic-blue);
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
